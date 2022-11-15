@@ -68,3 +68,23 @@ button.badge {
   color: #ffffff;
   width: 1.5rem;
 }
+
+@media screen and (max-width:768px){
+  .row{
+    flex-direction:column;
+  }
+
+  .App{
+    text-align: center;
+  }
+
+  button{
+    width:8rem;
+    height:2rem;
+    margin:1rem;
+  }
+
+  main h2{
+    font-size:1.8rem;
+  }
+}
